@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "jq-ext-lib-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/jqExtLib/JqExtLibWebPart.js",
+          "manifest": "./src/webparts/jqExtLib/JqExtLibWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "JqExtLibWebPartStrings": "lib/webparts/jqExtLib/loc/{locale}.js"
+  }
+}

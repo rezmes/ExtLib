@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ext-lib-client-side-solution",
+    "id": "cf77648c-fa4d-4780-8d32-ec55885e07a4",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/ext-lib.sppkg"
+  }
+}
